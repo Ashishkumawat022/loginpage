@@ -26,7 +26,7 @@ const Login = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={6}>
               <div className={`${cx.logsinbtn}`}>
                 <button>sign up</button>
                 <button>Log in </button>
@@ -40,7 +40,7 @@ const Login = () => {
                       <Form.Control type="text" placeholder="First name" />
                     </Form.Group>
                   </Col>
-                  <Col lg={6} md={6}>
+                  <Col lg={6} md={6} >
                     <Form.Group className={`${cx.formField}`}>
                       <Form.Control type="text" placeholder="Last name" />
                     </Form.Group>

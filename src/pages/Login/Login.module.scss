@@ -1,6 +1,5 @@
 .loginpage {
   background: #024e7b;
-
   padding: 20px 0px;
 
   .mbg{
@@ -152,7 +151,6 @@
   .loginpage {
     background: #024e7b;
     position: relative;
-    // background-image: url(../../assets/mob_templet.jpg);
     .mbg{
       display: block;
       position: absolute;
@@ -166,8 +164,10 @@
     padding: 20px 0px;
     .loginbanner {
       background: transparent;
+      padding: 20px 0px;
       img{
-        height: 50px;
+        height: 46px;
+       
       }
       .bannerDetails {
         display: none;
